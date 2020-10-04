@@ -69,7 +69,7 @@ public class AllTest {
 
     @Test
     public void testAAAaaa() {
-        AAAaaa aa=new AAAaaa("xiaoming",20,"北京","英语老师","海淀小学","[{\"studentName\":\"lily\",\"studentAge\":12},{\"studentName\":\"lucy\",\"studentAge\":15}]",new Date());
+        AAAaaa aa = new AAAaaa("xiaoming",20,"北京","英语老师","海淀小学","[{\"studentName\":\"lily\",\"studentAge\":12},{\"studentName\":\"lucy\",\"studentAge\":15}]",new Date());
 //        System.out.println(aa);
         String s = JSONObject.toJSONString(aa);
         //测试序列化
