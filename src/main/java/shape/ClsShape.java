@@ -1,3 +1,5 @@
+package shape;
+
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import lombok.*;
 

@@ -1,3 +1,5 @@
+package shape;
+
 import lombok.*;
 
 import java.util.List;

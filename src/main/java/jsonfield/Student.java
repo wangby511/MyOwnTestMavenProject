@@ -1,3 +1,5 @@
+package jsonfield;
+
 import com.alibaba.fastjson.annotation.JSONType;
 import lombok.*;
 

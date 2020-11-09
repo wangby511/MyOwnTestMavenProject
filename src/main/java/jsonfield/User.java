@@ -1,3 +1,5 @@
+package jsonfield;
+
 import java.util.Date;
 
 import com.alibaba.fastjson.JSONObject;
