@@ -8,8 +8,8 @@ public class LeakyBucket {
     private int water = 0;
     private long timestamp = System.currentTimeMillis();
 
-    public LeakyBucket(int tokenPerUnit, TimeUnit unit) {
-        capacity = dropPerSeconds = (int)(tokenPerUnit / unit.toSeconds(1));
+    public LeakyBucket(int leakyPerUnit, TimeUnit unit) {
+        capacity = dropPerSeconds = (int)(leakyPerUnit / unit.toSeconds(1));
     }
 
     public boolean place() {
